@@ -32,7 +32,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">David Obatake</a>
+          <a class="navbar-brand" href="#home">David Obatake</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -45,10 +45,149 @@
     </nav>
 
     <div class="container">
-      <div class="jumbotron">
-        <h1>Hello, world!</h1>
-        <p>My name is David and I'm a software developer in the BCS Texas area.</p>
+      <div id="home" class="jumbotron">
+    	<h1>Hello, world!</h1>
+        <p>My name is David and I'm a recent M.S. computer engineering graduate specializing in software development in the BCS Texas area.</p>
       </div> <!-- end jumbotron -->
+      <div id="about" class="jumbotron">
+      	<h1>About Me</h1>
+      	<h2>Education</h2>
+      	<p>Santa Clara University - M.S. Computer Science and Engineering (2016)<br/>Empahsis in Software Development and Data Science</p>
+
+      	<p>Santa Clara University - B.S. Computer Science and Engineering (2014)<br/>Minor: Philosophy</p>
+
+      	<h2>Programming Languages</h2>
+      	<h3>Fluent</h3>
+      	<p>C, Python, HTML, CSS, JavaScript, JQuery, LaTeX</p>
+
+      	<h3>Intermediate</h3>
+      	<p>Bash/Shell Scripting, C++, Java, SQL, Ruby</p>
+
+      	<h3>Junior/Learning</h3>
+      	<p>Objective-C, Swift, R, React.js, Ruby on Rails</p>
+
+      	<h2>Employment History</h2>
+      	<h3>Teaching Assistant</h3>
+      	<h4><a href="https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/">Computer Engineering Department - Santa Clara University</a></h4>
+      	<p>Sept. 2014 - Jun. 2016</p>
+      	<ul>
+      		<li>Awarded "Teaching Assistant of the Year" (2016)</li>
+      		<li>Taught, planned, and supervised 3 undergraduate laboratory sessions per week in Operating Systems, Computer Networks, and Computer Forensics</li>
+      	</ul>
+
+      	<h3>Customer Support Technician</h3>
+      	<h4><a href="https://zoom.us/">Zoom Video Communications, Inc.</a></h4>
+      	<p>Jun. 2015 - Sept. 2015</p>
+      	<ul>
+      		<li>Closed over 1,000 tickets in a 10 week period with a >99% satisfaction rating</li>
+      		<li>Answered customer email, phone, and instant message questions and issues regarding Zoom's cloud video conferencing software and platform
+      		</ul>
+      </div>
+      <div id="projects" class="jumbotron">
+      	<h1>Projects</h1>
+      	<h2>Current Works in Progress</h2>
+      	<p>I'm working on several passion projects at this time and hopefully I'll be able to complete and publish some of them. Here's a couple of things that I'm focusing on:</p>
+      	<ul>
+      		<li><h4>Web Development</h4>
+      		Updating myself on web development and frameworks, mostly expanding with JavaScript frameworks. Currently working with some React.js and looking forward to Angular.js and Node.js</li>
+      		<li><h4>iOS address text recognition</h4>
+      		This project uses both Objective-C, Swift to process images of address text and provide a quicker way to find a destination in the iOS Google Maps app. The goal is to leverage Google's Tesseract Optical Character Recognition (OCR) framework in a simple project that I could experiment with. Personally, I wanted to get a better grasp of Objective-C and learn Swift to fill out my knowledge of iOS development.</li>
+      	</ul>
+      	<h2>Completed Projects</h2>
+      	<h3>2016</h3>
+
+      	<div class="project">
+			<h4>Web Crawler and Search Engine</h4>
+			<h5>Web Search and Information Retrieval (COEN 272)</h5>
+			<div class="project-description">
+				<p><a href="https://github.com/Blynk/coen-272-project-1">Part 1</a></p>
+				<ul>
+					<li>Goal: Implement a simple web crawler in Java that saves HTML files to a local document store and perform noise removal and term analysis</li>
+					<li>Saved files were cleaned for noise (i.e. ads, extraneous links) using the <a href="https://jsoup.org/">JSoup library</a> for HTML/DOM manipulation</li>
+					<li><a href="https://en.wikipedia.org/wiki/Zipf%27s_law">Zipf's Law</a> analysis was then performed on the cleaned HTML files</li>
+				</ul>
+				<p><a href="https://github.com/hellothereamy/craigslistHousingSearch">Part 2</a></p>
+				<ul>
+					<li>Goal: Using a web crawler from Part 1, compile a store of HTML pages to access via a search engine</li>
+					<li>Our team used Apache Solr to perform the back-end retrieval of results for the search engine result page</li>
+					<li>Personal responsibilities included: HTML file parsing, data serialization, and technical documentation</li>
+					<li>We then performed A/B testing and analysis with emoji search as a novel feature for housing search</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="project">
+			<h4><a href="https://github.com/tigeroon/bigdata_project">Reddit Post Subject Classification</a></h4>
+			<h5>Big Data (COEN 242)</h5>
+			<div class="project-description">
+				<ul>
+					<li>Goal: Analyze performance of WEKA and Hadoop/Mahout for processing different sized datasets</li>
+					<li>Our team used a naive Bayes classifier to classify Reddit posts into subreddits from the top 10 subreddits based on the post title content</li>
+				</ul>
+			</div>
+		</div>
+
+		<h3>2015</h3>
+
+		<div class="project">
+			<h4>Oracle Database Interface</h4>
+			<h5>Database Systems (COEN 280)</h5>
+			<div class="project-description">
+				<ul>
+					<li>Goal: Create a Java GUI application that queries and displays information from a Yelp dataset using filter input from the application</li>
+					<li>Utilized jdbc to create queries from input information and receive data from the Oracle database</li>
+					<li>Each student was responsible for planning a database schema and writing SQL scripts to create, populate, and destroy the database tables</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="project">
+			<h4>Bicycle Repair Tracker</h4>
+			<h5>Object Oriented Analysis and Design (COEN 275)</h5>
+			<div class="project-description">
+				<ul>
+					<li>Goal: Create a Java GUI program that employs object-oriented design principles</li>
+					<li>Project team of two created an application to track bicycle repairs from receipt to delivery with an automated email system to notify customers of completed repairs</li>
+				</ul>
+			</div>
+		</div>
+
+		<h3>2014</h3>
+
+		<div class="project">
+			<h4><a href="https://github.com/Blynk/LaTeX_code/blob/master/coen-329-project.pdf">Virtualization Research Paper</a></h4>
+			<h5>Network Technology (COEN 329)</h5>
+			<div class="project-description">
+				<ul>
+					<li>Goal: Write a research paper on a modern network technology that extensively covers that one topic</li>
+					<li>Personal term paper covered most types of virtualization that computer networking uses at different points of a computer network</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="project">
+			<h4>iOS Local Music Sharing</h4>
+			<h5>Senior Design Capstone</h5>
+		</div>
+
+		<div class="project">
+			<h4>Simple 'C' Compiler</h4>
+			<h5>Intro to Formal Language Theory and Compiler Construction (COEN 175)</h5>
+		</div>
+
+		<h3>2013</h3>
+
+		<div class="project">
+			<h4>Program of Study Form Application</h4>
+			<h5>Software Engineering (COEN 174)</h5>
+		</div>
+
+		<div class="project">
+			<h4>MIPS CPU Design</h4>
+			<h5>Computer Architecture (COEN 122)</h5>
+		</div>
+      </div> <!-- end projects -->
+
     </div> <!-- end container -->
   </body>
 </html>
