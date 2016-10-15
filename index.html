@@ -20,6 +20,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <!-- Not Bootstrap -->
+    <link href="main.css" rel="stylesheet">
+    <script src="jquery-3.1.1.slim.min.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
   </head>
   <body>
 
@@ -97,9 +102,9 @@
       	<h3>2016</h3>
 
       	<div class="project">
-			<h4>Web Crawler and Search Engine</h4>
-			<h5>Web Search and Information Retrieval (COEN 272)</h5>
+			<h4 class="project-heading">Web Crawler and Search Engine</h4>
 			<div class="project-description">
+				<h5>Web Search and Information Retrieval (COEN 272)</h5>
 				<p><a href="https://github.com/Blynk/coen-272-project-1">Part 1</a></p>
 				<ul>
 					<li>Goal: Implement a simple web crawler in Java that saves HTML files to a local document store and perform noise removal and term analysis</li>
@@ -117,9 +122,9 @@
 		</div>
 
 		<div class="project">
-			<h4><a href="https://github.com/tigeroon/bigdata_project">Reddit Post Subject Classification</a></h4>
-			<h5>Big Data (COEN 242)</h5>
+			<h4 class="project-heading"><a href="https://github.com/tigeroon/bigdata_project">Reddit Post Subject Classification</a></h4>
 			<div class="project-description">
+				<h5>Big Data (COEN 242)</h5>
 				<ul>
 					<li>Goal: Analyze performance of WEKA and Hadoop/Mahout for processing different sized datasets</li>
 					<li>Our team used a naive Bayes classifier to classify Reddit posts into subreddits from the top 10 subreddits based on the post title content</li>
@@ -130,9 +135,9 @@
 		<h3>2015</h3>
 
 		<div class="project">
-			<h4>Oracle Database Interface</h4>
-			<h5>Database Systems (COEN 280)</h5>
+			<h4 class="project-heading">Oracle Database Interface</h4>
 			<div class="project-description">
+				<h5>Database Systems (COEN 280)</h5>
 				<ul>
 					<li>Goal: Create a Java GUI application that queries and displays information from a Yelp dataset using filter input from the application</li>
 					<li>Utilized jdbc to create queries from input information and receive data from the Oracle database</li>
@@ -142,9 +147,9 @@
 		</div>
 
 		<div class="project">
-			<h4>Bicycle Repair Tracker</h4>
-			<h5>Object Oriented Analysis and Design (COEN 275)</h5>
+			<h4 class="project-heading">Bicycle Repair Tracker</h4>
 			<div class="project-description">
+				<h5>Object Oriented Analysis and Design (COEN 275)</h5>
 				<ul>
 					<li>Goal: Create a Java GUI program that employs object-oriented design principles</li>
 					<li>Project team of two created an application to track bicycle repairs from receipt to delivery with an automated email system to notify customers of completed repairs</li>
@@ -155,9 +160,9 @@
 		<h3>2014</h3>
 
 		<div class="project">
-			<h4><a href="https://github.com/Blynk/LaTeX_code/blob/master/coen-329-project.pdf">Virtualization Research Paper</a></h4>
-			<h5>Network Technology (COEN 329)</h5>
+			<h4 class="project-heading"><a href="https://github.com/Blynk/LaTeX_code/blob/master/coen-329-project.pdf">Virtualization Research Paper</a></h4>
 			<div class="project-description">
+				<h5>Network Technology (COEN 329)</h5>
 				<ul>
 					<li>Goal: Write a research paper on a modern network technology that extensively covers that one topic</li>
 					<li>Personal term paper covered most types of virtualization that computer networking uses at different points of a computer network</li>
@@ -166,25 +171,49 @@
 		</div>
 
 		<div class="project">
-			<h4>iOS Local Music Sharing</h4>
-			<h5>Senior Design Capstone</h5>
+			<h4 class="project-heading">iOS Local Music Sharing</h4>
+			<div class="project-description">
+				<h5>Senior Design Capstone</h5>
+				<ul>
+					<li>Created an iOS application in Objective-C that plays music files on multiple iOS devices through Bluetooth and Wi-Fi using Apple's multipeer connectivity framework</li>
+					<li>Awarded "Best in Session" at the Senior Design Conference for technical presentation</li>
+				</ul>
+			</div>
 		</div>
 
 		<div class="project">
-			<h4>Simple 'C' Compiler</h4>
-			<h5>Intro to Formal Language Theory and Compiler Construction (COEN 175)</h5>
+			<h4 class="project-heading">Simple 'C' Compiler</h4>
+			<div class="project-description">
+				<h5>Intro to Formal Language Theory and Compiler Construction (COEN 175)</h5>
+				<ul>
+					<li>Goal: Implement a 32-bit compiler for a subset of the C language using flex and C++</li>
+					<li>Flex was used for the lexer, and C++ was used for building a top-down recursive parser, scope-/type-checker, stack-allocation, and assembly generator</li>
+				</ul>
+			</div>
 		</div>
 
 		<h3>2013</h3>
 
 		<div class="project">
-			<h4>Program of Study Form Application</h4>
-			<h5>Software Engineering (COEN 174)</h5>
+			<h4 class="project-heading">Program of Study Form Application</h4>
+			<div class="project-description">
+				<h5>Software Engineering (COEN 174)</h5>
+				<ul>
+					<li>Goal: Learn about the Software Development Life Cycle by planning, designing, implementing, testing, and delivering a software application for the Santa Clara University electrical engineering department</li>
+					<li>The project was to create an application that would simplify the process to create and maintain a program of study for graduate electrical engineering students</li>
+					<li>Our team created a Java desktop application that guided users through the form and provided a printable form for students to take to their advisor for approval</li>
+				</ul>
+			</div>
 		</div>
 
 		<div class="project">
-			<h4>MIPS CPU Design</h4>
-			<h5>Computer Architecture (COEN 122)</h5>
+			<h4 class="project-heading">MIPS CPU Design</h4>
+			<div class="project-description">
+				<h5>Computer Architecture (COEN 122)</h5>
+				<ul>
+					<li>Goal: Design a logic pipeline for a RISK-based MIPS CPU on a modified instruction set architecture in Verilog HDL</li>
+				</ul>
+			</div>
 		</div>
       </div> <!-- end projects -->
 

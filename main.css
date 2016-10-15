@@ -1,0 +1,16 @@
+#about, #projects{
+	display:none;
+}
+
+.project {
+	margin:5px;
+	padding:10px;
+	border: 2px solid #0B2545;
+	border-radius: 10px;
+}
+
+.project-description {
+	box-sizing: initial;
+	position:relative;
+	display: none;
+}
