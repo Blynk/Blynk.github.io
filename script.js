@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('.project-heading').css('cursor', 'pointer');
+	$('.project').css('cursor', 'pointer');
 	$('.project-heading').append('<span class="span1" style="float:right;">&#9660;</span>')
 
 	$('.project-heading').click(function(){
