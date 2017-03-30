@@ -10,10 +10,4 @@ $(document).ready(function(){
         }
         $(this).next('.project-description').toggle();
 	});
-
-	$(".nav li a").click(function(){
-        $(".jumbotron").hide();
-        var myDiv = $(this).attr("href");
-        $(myDiv).show();
-    });
 });
