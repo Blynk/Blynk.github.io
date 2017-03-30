@@ -2,7 +2,6 @@ name: David Obatake
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-github: [metadata]
 kramdown:
   input: GFM
   hard_wrap: false
@@ -13,7 +12,7 @@ gems:
 
 lsi: false
 safe: true
-source: [blynk.github.io]
+source: .
 incremental: false
 highlighter: rouge
 gist:
