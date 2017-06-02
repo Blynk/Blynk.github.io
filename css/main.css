@@ -10,3 +10,15 @@
 	position:relative;
 	display: none;
 }
+
+.sample{
+   background: url("http://upload.wikimedia.org/wikipedia/commons/8/86/Jefferson_Park_in_Chicago.JPG") no-repeat top center fixed;
+    background-size: cover;
+	height: 200px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+} 
